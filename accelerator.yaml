@@ -1,5 +1,5 @@
 accelerator:
-  displayName: Simple Accelerator 4
+  displayName: Simple Accelerator 5
   description: Contains just a README
   iconUrl: https://images.freecreatives.com/wp-content/uploads/2015/05/smiley-559124_640.jpg
   tags:
@@ -20,7 +20,7 @@ accelerator:
     defaultValue: "11"
     required: true
     
-  - name: projectname4
+  - name: goName
     inputType: select
     label: Go version to use
     choices:
