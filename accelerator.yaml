@@ -1,13 +1,13 @@
 accelerator:
-  displayName: Simple Accelerator 12
+  displayName: Simple Accelerator 33
   description: Contains just a README
   iconUrl: https://images.freecreatives.com/wp-content/uploads/2015/05/smiley-559124_640.jpg
   tags:
   - simple
   - getting-started
- 
- options:
-  - name: projectName2
+  
+  options:
+  - name: javaVersion
     inputType: select
     label: Java version to use
     choices:
