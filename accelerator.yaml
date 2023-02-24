@@ -1,19 +1,11 @@
 accelerator:
-  displayName: Simple Accelerator
+  displayName: Simple Accelerator 2
   description: Contains just a README
   iconUrl: https://images.freecreatives.com/wp-content/uploads/2015/05/smiley-559124_640.jpg
   tags:
   - simple
   - getting-started
-  
-  # options:
-  # - name: projectname
-  #  label: 'Enter Project name'
-  #  inputType: text
-  #  display: true
-  #  required: true
-  #  validationRegex: ^[a-z\-\_0-9]+$
-  
+ 
   options:
   - name: javaVersion
     inputType: select
@@ -25,5 +17,18 @@ accelerator:
       text: Java 11
     - value: "17"
       text: Java 17
+    defaultValue: "11"
+    required: true
+    
+  - name: goVersion
+    inputType: select
+    label: Go version to use
+    choices:
+    - value: "1.8"
+      text: Go 8
+    - value: "11"
+      text: Go 11
+    - value: "17"
+      text: Go 17
     defaultValue: "11"
     required: true
