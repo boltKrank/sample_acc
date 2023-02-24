@@ -6,10 +6,28 @@ accelerator:
   - simple
   - getting-started
  
-  options:
-  - name: projectname10
-    label: 'Enter Project name'
-    inputType: text
-    display: true
+ options:
+  - name: javaVersion
+    inputType: select
+    label: Java version to use
+    choices:
+    - value: "1.8"
+      text: Java 8
+    - value: "11"
+      text: Java 11
+    - value: "17"
+      text: Java 17
+    defaultValue: "11"
     required: true
-    validationRegex: ^[a-z\-\_0-9]+$
+
+  - name: govalue
+    inputType: select
+    label: Go version to use
+    choices:
+    - value: "1.8"
+      text: Go 8
+    - value: "11"
+      text: Go 11
+    - value: "17"
+      text: Go 17
+    defaultValue: "11"
