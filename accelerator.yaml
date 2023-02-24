@@ -20,7 +20,7 @@ accelerator:
     defaultValue: "11"
     required: true
     
-  - name: projectname
+  - name: projectname8
     inputType: select
     label: Go version to use
     choices:
