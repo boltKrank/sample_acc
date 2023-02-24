@@ -19,15 +19,3 @@ accelerator:
       text: Java 17
     defaultValue: "11"
     required: true
-
-  - name: govalue
-    inputType: select
-    label: Go version to use
-    choices:
-    - value: "1.8"
-      text: Go 8
-    - value: "11"
-      text: Go 11
-    - value: "17"
-      text: Go 17
-    defaultValue: "11"
