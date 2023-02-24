@@ -6,6 +6,14 @@ accelerator:
   - simple
   - getting-started
   
+  # options:
+  # - name: projectname
+  #  label: 'Enter Project name'
+  #  inputType: text
+  #  display: true
+  #  required: true
+  #  validationRegex: ^[a-z\-\_0-9]+$
+  
   options:
   - name: javaVersion
     inputType: select
