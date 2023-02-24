@@ -7,7 +7,7 @@ accelerator:
   - getting-started
  
  options:
-  - name: javaVersion
+  - name: projectName
     inputType: select
     label: Java version to use
     choices:
