@@ -1,5 +1,5 @@
 accelerator:
-  displayName: Simple Accelerator 9
+  displayName: Simple Accelerator 10
   description: Contains just a README
   iconUrl: https://images.freecreatives.com/wp-content/uploads/2015/05/smiley-559124_640.jpg
   tags:
@@ -7,7 +7,7 @@ accelerator:
   - getting-started
  
   options:
-  - name: projectname
+  - name: projectname10
     label: 'Enter Project name'
     inputType: text
     display: true
