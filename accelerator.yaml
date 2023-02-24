@@ -6,3 +6,16 @@ accelerator:
   - simple
   - getting-started
  
+ options:
+  - name: projectName2
+    inputType: select
+    label: Java version to use
+    choices:
+    - value: "1.8"
+      text: Java 8
+    - value: "11"
+      text: Java 11
+    - value: "17"
+      text: Java 17
+    defaultValue: "11"
+    required: true
